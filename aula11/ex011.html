@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País em que você vive</title>
+</head>
+<body>
+    <h1>Gringo ou Brasileiro?</h1>
+    Em que país você vive? <input type="text" name="txt" id="txt" placeholder="Digite o país que você mora">
+    <input type="button" value="Verificar" onclick="country()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function country() {
+            var pais = window.document.querySelector('input#txt')
+            var res = window.document.querySelector('div#res')
+            var digitado = (pais.value).toUpperCase()
+            
+            if (digitado == 'BRASIL') {
+                res.innerHTML = `<p>Você mora no(a) ${digitado}. Você é <strong>Brasileiro!</strong></p>`
+            } else {
+                res.innerHTML = `<p>Você mora no(a) ${digitado}. Você é <strong>Gringo!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
