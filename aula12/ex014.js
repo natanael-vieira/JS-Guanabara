@@ -36,5 +36,6 @@ switch(diaSem) {
         console.log('Sábado')
         break
     default:
-        console.log('Entrada inválida!')
+        console.log('[ERRO] Entrada inválida!')
+        break
 }
