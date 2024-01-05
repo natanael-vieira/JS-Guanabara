@@ -1,9 +1,12 @@
 body {
-    background: blueviolet;
+    background: rgb(70, 142, 236);
+    font: normal 12pt Arial
 }
 
 header {}
 
-section {}
+section {
+    background: whitesmoke;
+}
 
 footer {}
