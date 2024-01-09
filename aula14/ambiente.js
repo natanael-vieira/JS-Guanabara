@@ -12,6 +12,10 @@
 //     d++
 // } while (d <= 13)
 
+console.log('Vai começar...')
+
 for (var a = 1; a <= 9; a++) {
     console.log(a)
 }
+
+console.log('FIM!')
